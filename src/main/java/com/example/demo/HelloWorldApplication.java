@@ -7,6 +7,15 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class HelloWorldApplication extends SpringBootServletInitializer {
 
+	
+	
+	
+		@GetMapping("/message")
+	public String getMessage() {
+		return "Welcome JKH";
+	}
+	
+	
 	public static void main(String[] args) {
 		
 		
